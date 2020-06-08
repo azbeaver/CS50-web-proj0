@@ -36,6 +36,20 @@ $text-color: #000000;
 	min-width: 300px;
 }
 
+@media (min-width: 800px) {
+	.pixel-img-custom {
+		width: 45%;
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 799px) {
+	.pixel-img-custom {
+		width: 90%;
+		padding-bottom: 30px;
+	}
+}
+
 @media (min-width: 500px) {
 	.about-img-custom {
 		visibility: visible;

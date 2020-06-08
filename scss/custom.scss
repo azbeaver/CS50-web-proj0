@@ -10,6 +10,10 @@ $text-color: #000000;
 	padding-top: 80px;
 }
 
+.mid-padding-amt {
+	padding-top: 30px;
+}
+
 .jumbotron-custom {
 	background-color: $bright-color;
 }
@@ -19,7 +23,7 @@ $text-color: #000000;
 }
 
 .text-custom {	
-	p, table, th, td {
+	p, table, th, td, blockquote {
 		color: $text-color;	
 		font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 		background-color: $bright-color;

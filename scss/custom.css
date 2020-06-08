@@ -6,13 +6,16 @@
 .top-padding-amt {
   padding-top: 80px; }
 
+.mid-padding-amt {
+  padding-top: 30px; }
+
 .jumbotron-custom {
   background-color: #fffbf7; }
 
 .bg-custom {
   background-color: #fcedde; }
 
-.text-custom p, .text-custom table, .text-custom th, .text-custom td {
+.text-custom p, .text-custom table, .text-custom th, .text-custom td, .text-custom blockquote {
   color: #000000;
   font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   background-color: #fffbf7;

@@ -6,9 +6,9 @@
 .top-padding-amt {
   padding-top: 80px; }
 
-.mid-padding-amt {
-  padding-top: 30px; }
-
+@media (min-width: 500px) {
+  .mid-padding-amt {
+    padding-top: 30px; } }
 .jumbotron-custom {
   background-color: #fffbf7; }
 
@@ -25,18 +25,18 @@
   width: 60%;
   min-width: 300px; }
 
-@media (min-width: 800px) {
-  .pixel-img-custom {
-    width: 45%;
-    padding-right: 30px; } }
-@media (max-width: 799px) {
-  .pixel-img-custom {
-    width: 90%;
-    padding-bottom: 30px; } }
+.pixel-img-custom {
+  width: 45%;
+  max-width: 300px;
+  padding-right: 30px; }
+
 @media (min-width: 500px) {
   .about-img-custom {
     visibility: visible;
-    width: 85%; } }
+    width: 85%;
+    max-width: 300px;
+    padding-left: 30px;
+    padding-bottom: 30px; } }
 @media (max-width: 499px) {
   .about-img-custom {
     visibility: hidden; } }

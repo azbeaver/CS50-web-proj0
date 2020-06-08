@@ -1,0 +1,56 @@
+$bright-color: #fffbf7;
+$text-color: #000000;
+
+.nav-custom {
+	color: $bright-color;
+	background-color: #de6c00;
+}
+
+.top-padding-amt {
+	padding-top: 80px;
+}
+
+.jumbotron-custom {
+	background-color: $bright-color;
+}
+
+.bg-custom {
+	background-color: #fcedde;
+}
+
+.text-custom {	
+	p, table, th, td {
+		color: $text-color;	
+		font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+		background-color: $bright-color;
+		padding: 15px;
+	}
+}
+
+.home-img-custom {
+	width: 60%;
+	min-width: 300px;
+}
+
+@media (min-width: 500px) {
+	.about-img-custom {
+		visibility: visible;
+		width: 85%;
+	}
+}
+
+@media (max-width: 499px) {
+	.about-img-custom {
+		visibility: hidden;
+	}
+}
+
+.navbar-nav {
+	flex-direction: row;
+}
+
+.nav li {
+	padding-right: 10px;
+}
+
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");

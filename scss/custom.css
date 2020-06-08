@@ -1,0 +1,38 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+.nav-custom {
+  color: #fffbf7;
+  background-color: #de6c00; }
+
+.top-padding-amt {
+  padding-top: 80px; }
+
+.jumbotron-custom {
+  background-color: #fffbf7; }
+
+.bg-custom {
+  background-color: #fcedde; }
+
+.text-custom p, .text-custom table, .text-custom th, .text-custom td {
+  color: #000000;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  background-color: #fffbf7;
+  padding: 15px; }
+
+.home-img-custom {
+  width: 60%;
+  min-width: 300px; }
+
+@media (min-width: 500px) {
+  .about-img-custom {
+    visibility: visible;
+    width: 85%; } }
+@media (max-width: 499px) {
+  .about-img-custom {
+    visibility: hidden; } }
+.navbar-nav {
+  flex-direction: row; }
+
+.nav li {
+  padding-right: 10px; }
+
+/*# sourceMappingURL=custom.css.map */
